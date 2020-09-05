@@ -4,5 +4,5 @@ My name is Casey Kwesi Mensah, this file is the template from my leacturer, Todd
 
 ## Contents
 
-This repository contains a single file, a script for gathering the basic configuration of the user from bash.
+This repository contains scripts which collectively come together to create a Portfolio in the Index.html file. 
 

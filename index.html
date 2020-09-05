@@ -8,14 +8,18 @@
         <meta name="author" content="Casey Mensah"/>
         <meta name="description" content="Learning HTML"/>
     <style>
-        body{
+         body{
             background-color:#7b8691 ;
             font-size: 14pt;
             }
-        div{
-            width: 500px;
-            margin: 20px auto;
-            padding: 30px;
+        #div1{
+            text-align: right;
+            width: 600px;
+            }
+        #div2{
+            width: 600px;
+          margin: 20px auto;
+            padding: 20px;
             background-color:#092b4d;    
             }
         p{
@@ -24,20 +28,49 @@
             } 
         h2{
             text-align:center;
-            color: rgb(249, 253, 0);
+            color: white;
+            } 
+        h1{
+            text-align:center;
+            color: rgb(228, 229, 143);
             } 
         a{
-            color:rgb(51, 253, 0);
-        }
-        #ashlink{
-            color:rgb(245, 4, 36);
-        } 
+            color:orange;
+            }
+
+        #menu {
+            color :White;
+            font-size: 11pt;
+            font-family: arial;
+            border-radius: 50px;
+            padding: 10px  11px;
+            margin-left: 15px;
+            background: transparent;
+            border-color: yellow;
+            border-style: none;
+            border-width: 2px;
+            text-decoration: none;
+            }
+
+        #menu:hover {
+            color: #fdec00;
+            background-color: #1172c4;
+            }
+
+        #menu:active {
+            border-radius: 22px;
+            color: red;
+            }
     </style>    
     </head>
     <body>
-        <div> 
-            <a href="index.html">About</a>
-            <a href="skills.html">Skills</a>
+        <div id = "div2">
+        <div id = "div1"> 
+            <a id = "menu" href="index.html">AboutMe</a>
+            <a id = "menu" href="skills.html">Skills&Courses</a>
+            <a id = "menu" href="jobs.html">MyJobs</a>
+            <a id = "menu" href="projects.html">MyProjects</a>
+            <a id = "menu" href="interests.html">MyInterests</a> </div>
         
             <h2> My Biography</h2>
             <p> <img style = "float:left; margin: 0 10px 0 0;" 
@@ -45,10 +78,10 @@
             <p> &nbsp; &nbsp; &nbsp; Hi, my name is <strong> Casey Mensah</strong>, I come from 
                 <a href="https://en.wikipedia.org/wiki/Ghana" target = "blank"><em>Ghana</em></a> and I am a Junior in 
                 <em> <a href="https://www.ashesi.edu.gh/" target = "blank" id="ashlink"> Ashesi University</a></em>.  
-                I live with my parents and two brothers, in <a href="https://en.wikipedia.org/wiki/Accra">Accra,</a> the capital city. 
-                Our country is very beautiful place and you should come visit sometime. If you do, 
+                I live with my parents and two brothers, in Accra, the capital city. 
+                Our country is a very beautiful place and should you ever come visit, 
                 <a href="https://www.google.com/travel/things-to-do?g2lb=2502548%2C4258168%2C4270442%2C4306835%2C4317915%2C4322823%2C4328159%2C4371334%2C4401769%2C4403882%2C4419364%2C4424916%2C4425793%2C4426347%2C4427774%2C4270859%2C4284970%2C4291517%2C4412693&hl=en&gl=gh&un=1&dest_mid=%2Fm%2F0fnyc&dest_state_type=main&dest_src=ts&sa=X&ved=2ahUKEwjwmL-6j8vrAhUIwFkKHQcABwIQuL0BMAF6BAgFECA#ttdm=5.510799_-0.232945_11" target = "blank"> 
-                here</a> are some interesting places you could visit.
+                here</a> are some interesting places you could go to.
             </p>
             <hr> 
             <p> </p>

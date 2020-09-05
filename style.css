@@ -38,8 +38,13 @@ hr{
 }
 
 a{
-    color:orange;
+    color:rgb(255, 163, 100);
+    text-decoration: none;
  }
+
+a:hover {
+    cursor: pointer;
+}
 
 #menu {
     color :White;

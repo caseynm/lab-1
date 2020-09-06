@@ -33,6 +33,11 @@ h1{
     margin: 10pt;
 } 
 
+h4{
+    text-align:center;
+    color: rgb(228, 229, 143);
+} 
+
 hr{
     padding: 0.1pt;
 }

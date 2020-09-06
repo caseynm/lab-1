@@ -74,9 +74,8 @@ a:hover {
     background-color: #1172c4;
 }
 
-.cls.current {
+#menu:active {
     border-radius: 50px;
-    background: transparent;
     color: red;
 }
 

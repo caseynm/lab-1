@@ -39,7 +39,7 @@ hr{
 
 a{
     color:rgb(255, 163, 50);
-    text-decoration: none;
+    text-decoration-style: dotted;
  }
 
 a:hover {

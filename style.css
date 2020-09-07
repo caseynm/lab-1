@@ -74,10 +74,9 @@ a:hover {
     background-color: #1172c4;
 }
 
-#menu:active {
-    border-radius: 50px;
-    color: red;
-}
+#menu.current {
+    color:orange;
+    }
 
 
  
